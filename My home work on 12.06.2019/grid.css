@@ -1,0 +1,204 @@
+@media screen and (min-width: 1200px) {
+  .container-fluid {
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 3% fr fr 3%;
+    grid-auto-flow: dense;
+    display: grid;
+    grid-template-columns: 18% 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 18%;
+  }
+
+  .header-sitting {
+    display: grid;
+    grid-row: 1 / 2;
+    grid-column: 1 / 12;
+  }
+  .right-top-menu-visible-md {
+    display: none;
+  }
+  .left-menu-hidden-xs {
+    display: grid;
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+  }
+  .main-content-hidden-xs {
+    display: grid;
+    grid-row: 2 / 3;
+    grid-column: 2 / 10;
+  }
+  .main-content-visible-xs {
+    display: none;
+  }
+  .left-bottom-menu-visible-xs {
+    display: none;
+  }
+  .right-menu-visible-lg {
+    display: grid;
+    grid-row: 2 / 3;
+    grid-column: 11 / 12;
+  }  
+  .right-bottom-menu-visible-sm {
+    display: none;
+  }
+  .right-bottom-menu-visible-xs {
+    display: none;
+  }
+  .footer-sitting {
+    display: grid;
+    grid-row: 3 / 4;
+    grid-column: 1 / 12;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+  .container-fluid {
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+    grid-auto-flow: dense;
+    display: grid;
+    grid-template-columns: 18% 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 18%;
+  }
+  .header-sitting {
+    display: grid;
+    grid-row: 1 / 2;
+    grid-column: 1 / 12;
+  }
+  .right-top-menu-visible-md {
+    display: grid;
+    grid-row: 2 / 3;
+    grid-column: 1 / 12;
+  }
+  .left-menu-hidden-xs {
+    display: grid;
+    grid-row: 3 / 4;
+    grid-column: 1 / 2;
+  }
+  .main-content-hidden-xs {
+    display: grid;
+    grid-row: 3 / 4;
+    grid-column: 3 / 10;
+  }
+  .main-content-visible-xs {
+    display: none;
+  }
+  .left-bottom-menu-visible-xs {
+    display: none;
+  }
+  .right-menu-visible-lg {
+    display: none;
+  }  
+  .right-bottom-menu-visible-sm {
+    display: none;
+  }
+  .right-bottom-menu-visible-xs {
+    display: none;
+  }
+  .footer-sitting {
+    display: grid;
+    grid-row: 4 / 5;
+    grid-column: 1 / 12; 
+  }
+}
+
+
+@media screen and (max-width: 992px) {
+  .container-fluid {
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+    grid-auto-flow: dense;
+    display: grid;
+    grid-template-columns: 18% 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 18%;
+  }
+  .header-sitting {
+    display: grid;
+    grid-row: 1 / 2;
+    grid-column: 1 / 12;
+  }
+  .right-top-menu-visible-md {
+    display: none;
+  }
+  .left-menu-hidden-xs {
+    display: grid;
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+  }
+  .main-content-hidden-xs {
+    display: grid;
+    grid-row: 2 / 3;
+    grid-column: 3 / 10;
+  }
+  .main-content-visible-xs {
+    display: none;
+  }
+  .left-bottom-menu-visible-xs {
+    display: none;
+  }
+  .right-menu-visible-lg {
+    display: none;
+  }  
+  .right-bottom-menu-visible-sm {
+    display: grid;
+    grid-row: 3 / 4;
+    grid-column: 3 / 10;
+  }
+  .right-bottom-menu-visible-xs {
+    display: none;
+  }
+  .footer-sitting {
+    display: grid;
+    grid-row: 4 / 5;
+    grid-column: 1 / 12; 
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .container-fluid {
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+    grid-auto-flow: dense;
+    display: grid;
+    grid-template-columns: 18% 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 18%;
+  }
+  .header-sitting {
+    display: grid;
+    grid-row: 1 / 2;
+    grid-column: 1 / 12;
+  }
+  .right-top-menu-visible-md {
+    display: none;
+  }
+  .left-menu-hidden-xs {
+    display: none;
+  }
+  .main-content-hidden-xs {
+    display: none;
+  }
+  .main-content-visible-xs {
+    display: grid;
+    grid-row: 2 / 3;
+    grid-column: 3 / 10;
+  }
+  .left-bottom-menu-visible-xs {
+    display: grid;
+    grid-row: 3 / 4;
+    grid-column: 3 / 10;
+  }
+  .right-menu-visible-lg {
+    display: none;
+  }  
+  .right-bottom-menu-visible-sm {
+    display: none;
+  }
+  .right-bottom-menu-visible-xs {
+    display: grid;
+    grid-row: 4 / 5;
+    grid-column: 3 / 10;
+  }
+  .footer-sitting {
+    display: grid;
+    grid-row: 5 / 6;
+    grid-column: 1 / 12; 
+
+  }
+}

@@ -1,0 +1,120 @@
+.col1 {
+	background-color: rgb(51,51,51);
+	color: white;
+	padding: 1% 0 1% 0;
+}
+
+.col2 {
+	background-color: rgb(247,247,247);
+}
+
+.col3 {
+	background-color: white;
+}
+
+.col4 {
+	background-color: rgb(247,247,247);
+
+}
+
+.col5 {
+	background-color: rgb(51,51,51);
+	color: white;
+}
+
+.tittle-p {
+	color: rgb(0, 0, 139);
+	margin-bottom: 3%;
+	margin-top: 3%;
+}
+
+.aside-p {
+	color: rgb(255, 165, 0);
+	margin: 5% 0 5% 0;
+	font-weight: bold;
+}
+
+.aside-p-second {
+	color: rgb(0, 128, 0);
+	margin: 5% 0 5% 0;
+}
+
+.ul-inline-block li{
+	display: inline-block;
+	margin: 0 3% 0 3%;
+	list-style-type: none;
+}
+
+
+.shadow {
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.ImagesForAside1 {
+	display: block;
+	width: 60%;
+	margin: auto;
+}
+
+.ImagesForAside1-visible-xs {
+	display: block;
+	width: 20%;
+	margin: auto;
+}
+
+.ImagesForAside2 {
+	display: block;
+	width: 25%;
+	margin: auto;
+}
+
+.ImagesForAside2-visible-md {
+	width: 80px;
+}
+
+.ImagesForAside2-visible-sm {
+	display: block;
+	width: 10%;
+	margin: auto;
+}
+
+.ImagesForAside2-visible-xs {
+	display: block;
+	width: 10%;
+	margin: auto;
+}
+
+.a-more-sittings {
+	color: white;
+	margin-left: 5%;
+}
+
+.a-more-sittings-second {
+	color: white;
+}
+
+.main-images {
+	width: 100%;
+	margin-bottom: 2%;
+}
+
+.footer-h2 {
+	margin-bottom: 0;
+	padding: 2% 0 2% 0;
+}
+
+.clear-both-p {
+	clear: both;
+}
+
+footer {
+  position: sticky;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+}
+
+
+
+ 
